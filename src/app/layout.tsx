@@ -4,15 +4,18 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import { GlobalSearch } from "@/components/global-search";
+import { PodcastPlayer } from "@/components/podcast-player";
 import { ThemeInitializer, ThemeToggle } from "@/components/theme-toggle";
 
 const navLinks = [
   { href: "/dashboard", label: "Dashboard" },
+  { href: "/games", label: "Games" },
   { href: "/apps", label: "Apps" },
   { href: "/platform", label: "Platform" },
   { href: "/projects", label: "Projects" },
   { href: "/map", label: "Everything Map" },
   { href: "/life", label: "Life" },
+  { href: "/prayer-deck.html", label: "Prayer deck" },
   { href: "/care", label: "Care" },
   { href: "/capture", label: "Capture" },
   { href: "/insights/lifestyle", label: "Lifestyle Report" },
@@ -20,6 +23,7 @@ const navLinks = [
   { href: "/tasks", label: "Tasks" },
   { href: "/routines", label: "Routines" },
   { href: "/studio", label: "Studio" },
+  { href: "/podcasts", label: "Podcasts" },
 ];
 
 const geistSans = Geist({
@@ -101,6 +105,7 @@ export default function RootLayout({
             </div>
           </main>
         </div>
+        <PodcastPlayer />
       </body>
     </html>
   );

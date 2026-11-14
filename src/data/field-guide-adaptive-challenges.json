@@ -1,0 +1,221 @@
+{
+  "version": "2026-10-11.2",
+  "variants": {
+    "business-models": {
+      "guided": {
+        "question": "A business advertises managed laptops and a recycling service. Which detail most directly identifies who can approve a community reuse pilot?",
+        "options": [
+          "Manufacturer of the laptops it supplies.",
+          "Whether its helpdesk uses a ticketing system.",
+          "Number of customer endpoints under support.",
+          "Check asset title and disposal clauses."
+        ],
+        "answer": 3,
+        "explanation": "Service provision doesn't convey title. Disposal clauses and owner permission govern a proposed transfer."
+      },
+      "expert": {
+        "question": "A regional MSP manages client-owned devices, leased endpoints and vendor-warranty returns in one workshop. The operations manager offers 'anything in the retirement pile'. Which agreement structure would most reduce transfer risk?",
+        "options": [
+          "A work order describing asset condition and repair costs, counter-signed by a service technician.",
+          "One consent form naming the MSP as donor, with serials added on collection.",
+          "Use per-asset ownership, release, data and contractual checks before transfer.",
+          "A memorandum limiting resale to educational customers, with remaining responsibility transferred to the recipient."
+        ],
+        "answer": 2,
+        "explanation": "The same physical pile can contain several owners and return obligations. Transfer authority is per asset, not per workshop."
+      }
+    },
+    "business-people": {
+      "guided": {
+        "question": "A directory names a local branch manager and a central procurement officer. You need permission to receive retired computers. Who should your first question target?",
+        "options": [
+          "The branch manager to identify which role actually holds disposal authority.",
+          "The procurement officer as the confirmed line manager of every local employee.",
+          "The highest-ranking title in the company directory.",
+          "A technician who replaced the devices."
+        ],
+        "answer": 0,
+        "explanation": "Ask for a verified decision path; neither job title nor seniority proves authority."
+      },
+      "expert": {
+        "question": "A public staff page lists a regional director, an account manager and two engineers. A supplier announcement says the parent group recently centralised procurement. Which organisation map is defensible?",
+        "options": [
+          "Treat the director as the sole signatory for every regional disposal because the title implies control.",
+          "Link the supplier parent directly to the engineers based on its new procurement standard.",
+          "Draw engineers reporting to the account manager, whose commercial role likely supervises tickets.",
+          "Record public roles and procurement changes; mark reporting and delegated approval unverified."
+        ],
+        "answer": 3,
+        "explanation": "Published role names, supplier relationships and reporting lines are distinct evidentiary claims."
+      }
+    },
+    "business-workplace": {
+      "guided": {
+        "question": "A recent local role advert lists occasional after-hours travel; three anonymous national reviews criticise rosters. What can you fairly say?",
+        "options": [
+          "The role includes after-hours work; frequency and culture are still unverified.",
+          "The national reviews make regular weekend work in Dubbo probable.",
+          "The absence of Dubbo-specific reviews indicates strong team satisfaction.",
+          "A recent advert outweighs all staff commentary, so culture can be marked positive."
+        ],
+        "answer": 0,
+        "explanation": "The advert grounds duties, not local culture; anonymous national reviews are contextual prompts only."
+      },
+      "expert": {
+        "question": "You compare a Dubbo field engineer advertisement, a national review sample (n=5 over eight years) and two public profiles showing 6–9-year tenures. Which workplace inference survives evidence scrutiny?",
+        "options": [
+          "Advertised duties are clear; the sample is too thin to rate local culture.",
+          "National review complaints should be weighted by their total count irrespective of location.",
+          "Published tenure outweighs advertisement wording because lived experience is a stronger source.",
+          "Long tenure proves good management and low turnover across the Dubbo team."
+        ],
+        "answer": 0,
+        "explanation": "Sampling, location and recency constrain inference. Even credible individual tenures don't establish population-level culture."
+      }
+    },
+    "business-lifecycle": {
+      "guided": {
+        "question": "A printer dealer says all retired devices go back to a leasing partner. A client offers you a used device directly. What matters first?",
+        "options": [
+          "Whether the client has a purchase invoice from the first year of use.",
+          "First verify lease ownership and any required return terms.",
+          "Whether its toner has already been removed.",
+          "Whether your project can store it safely after pickup."
+        ],
+        "answer": 1,
+        "explanation": "The offer must be reconciled with title, existing lease and disposition requirements before logistics."
+      },
+      "expert": {
+        "question": "A client owns the laptops, but the MSP's contract requires certified data erasure and a vendor has a buyback option on selected models. What is the defensible pilot approach?",
+        "options": [
+          "Offer to take only machines that fail POST, because they cannot be resold under buyback.",
+          "Check buyback and service obligations, then require approved release and erasure.",
+          "Receive disks separately and let the MSP deliver erasure certificates after laptops have been redistributed.",
+          "Arrange a donation letter from the client manager and treat contractual obligations as an MSP matter."
+        ],
+        "answer": 1,
+        "explanation": "Ownership alone doesn't nullify service obligations or buyback restrictions; data evidence must match contract requirements."
+      }
+    },
+    "business-projects": {
+      "guided": {
+        "question": "A shop may provide three faulty laptops, but you have no spare battery storage or verified erasure process. Which first step is proportionate?",
+        "options": [
+          "Build a larger database so collection can be offered reliably.",
+          "Offer free collection with a monthly cap while you find a recycler.",
+          "Arrange collection of laptops without batteries and ask the shop to hold their drives.",
+          "Discuss a pilot only after authorised data, storage and disposal steps are ready."
+        ],
+        "answer": 3,
+        "explanation": "Discovery and controls should precede any transfer or recurring collection commitment."
+      },
+      "expert": {
+        "question": "A regional MSP offers a one-off ten-unit batch if you can collect in 48 hours. Four units have data drives; six have uncertain batteries. Your part-time pilot has four hours and a five-unit safe capacity. What maximises responsible value?",
+        "options": [
+          "Pay a recycler to take the drives after collecting the whole batch; use the laptops as training stock.",
+          "Take five units quickly and document the remaining five as declined, trusting the MSP's identification of the safest devices.",
+          "Decline the urgent batch; propose a smaller future handoff once data and battery safeguards are proved.",
+          "Accept all ten but store five temporarily with another volunteer to avoid exceeding your own capacity."
+        ],
+        "answer": 2,
+        "explanation": "Capacity, data obligations and battery hazards must be designed into the offer, not managed as surprises after possession."
+      }
+    },
+    "business-fieldwork": {
+      "guided": {
+        "question": "A former company website says one person manages Dubbo. A current phone contact says the person changed roles. How should your research record change?",
+        "options": [
+          "Preserve the dated entry, flag uncertainty and seek current verification.",
+          "Use the current contact's title to infer the new reporting structure.",
+          "Keep the old entry until the new name appears in a search snippet.",
+          "Overwrite the old entry with the telephone claim and delete its source."
+        ],
+        "answer": 0,
+        "explanation": "Track provenance and dates; do not erase evidence or silently promote an unverified conversation to fact."
+      },
+      "expert": {
+        "question": "Two public records conflict: an ABN lookup shows one legal name, while a 2024 press release announces an acquisition; a 2026 local listing still shows an old trading name. How should a volunteer-facing briefing present the company?",
+        "options": [
+          "Conclude both businesses still operate independently until each website redirects.",
+          "List the acquirer as the employer of every local staff member because control was announced.",
+          "Use only the newest date and discard older names as inaccurate.",
+          "Separate legal entity, trading name and acquisition history with dated citations."
+        ],
+        "answer": 3,
+        "explanation": "Legal name, trading presence, history and employment entity are distinct and may change on different schedules."
+      }
+    },
+    "outreach-locate": {
+      "guided": {
+        "question": "A repairer has uncollected laptops, while an employer has signed asset release forms but still holds unassessed drives. Which next conversation is better scoped?",
+        "options": [
+          "Ask the repairer for serials so you can claim abandoned goods.",
+          "Check the employer's data custody plan before collection.",
+          "Take both sets and decide what to refurbish after inventory.",
+          "Ask the employer to perform an informal factory reset at pickup."
+        ],
+        "answer": 1,
+        "explanation": "A signed transfer path is promising but data obligations and approval still need verification."
+      },
+      "expert": {
+        "question": "You have three leads: an MSP holds eight client laptops with unclear title; a school has four units approved for retirement but mandates certified erasure; a consumer shop has non-data-bearing chargers it owns. Which lowest-risk learning pilot is best?",
+        "options": [
+          "Start with owned chargers; assess school erasure obligations before laptop intake.",
+          "Accept the school laptops immediately because the principal approved retirement.",
+          "Accept all chargers and advertise a combined laptop-and-accessory collection point.",
+          "Collect the MSP laptops and leave disks in place for audit."
+        ],
+        "answer": 0,
+        "explanation": "Scope opportunities by ownership, data status and actual capability; a simple owned-accessory handoff can be useful without implying laptop readiness."
+      }
+    },
+    "outreach-authority": {
+      "guided": {
+        "question": "A potential donor offers a PC whose drive has no documented erasure, and says you can 'wipe it later'. Which response best manages the handoff?",
+        "options": [
+          "Receive the unit as a loan without a serial or custody record.",
+          "Use a free OS reset immediately on receipt while you seek paperwork.",
+          "Pause intake until title and data-handling duties are settled.",
+          "Remove the SSD at pickup, so title concerns apply only to the chassis."
+        ],
+        "answer": 2,
+        "explanation": "Unclear data and transfer authority are not fixed by an informal promise to erase later."
+      },
+      "expert": {
+        "question": "A business offers five retired units: two leased, one with a damaged lithium pack, two company-owned with encrypted SSDs. The company has a data-destruction contract. Which proposed intake is defensible?",
+        "options": [
+          "Accept the two company-owned units based solely on the employee's promise the drives are encrypted.",
+          "Consider only owned units after contract and erasure verification; hold all other items.",
+          "Take the chassis of all five and return the drives and battery to the donor after the event.",
+          "Accept all five under a temporary custody note, leaving each exception to be resolved before resale."
+        ],
+        "answer": 1,
+        "explanation": "Encryption doesn't alone demonstrate contractual erasure, and lease and battery issues can't be deferred through casual custody."
+      }
+    },
+    "outreach-capacity": {
+      "guided": {
+        "question": "You have two free hours this week, an unanswered original email and one uncontacted local workshop. What is the most sustainable action?",
+        "options": [
+          "Spend both hours making asset labels for devices you might eventually source.",
+          "Arrange a collection route and ask donors to leave items out even if they have not replied.",
+          "Contact one new shop with a process question, then prepare a small authorised intake checklist.",
+          "Email all remaining regional employers in one batch and follow up when stock becomes available."
+        ],
+        "answer": 2,
+        "explanation": "Narrow discovery prevents obligations from outrunning a very small pilot."
+      },
+      "expert": {
+        "question": "A promising donor requires fortnightly collection from multiple sites, whereas your pilot can safely triage five units each month. Which counter-proposal best protects the relationship and your family time?",
+        "options": [
+          "Propose an indefinite waiting list for the donor and collect equipment after the volume justifies a warehouse.",
+          "Offer fortnightly pickups only if the donor pre-sorts devices by resale value.",
+          "Offer a one-time capped pilot and explicit review before any recurring work.",
+          "Accept the agreement, outsourcing storage to volunteers if volume rises."
+        ],
+        "answer": 2,
+        "explanation": "Don't commit beyond capacity. A clearly bounded pilot gives both sides useful evidence without hidden ongoing obligations."
+      }
+    }
+  }
+}

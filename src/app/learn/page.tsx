@@ -39,6 +39,43 @@ export default function LearnPage() {
                 </div>
             </div>
 
+            <a href="/podcasts#repair-cafe" className="mb-6 block rounded-2xl border border-emerald-500/30 bg-slate-950 p-5 text-white hover:border-emerald-300"><strong className="block text-xl">🎧 Podcasts and audio learning</strong><span className="mt-1 block text-sm text-emerald-100">Your existing JoshHub podcasts plus Repair Café and e-waste listening, with in-page players →</span></a>
+
+            <a href="/learn/mens-sheda-dubbo" className="mb-6 block rounded-2xl border-2 border-teal-500/40 bg-teal-950 p-6 text-white transition hover:border-teal-300">
+                <p className="text-xs font-bold uppercase tracking-widest text-teal-200">New · October 2026 · Local research</p>
+                <strong className="mt-2 block text-2xl">Mens Sheda Dubbo</strong>
+                <p className="mt-2 text-sm text-teal-100">Two Sheds · six interactive lessons · videos and playable podcasts · unanswered field questions · Repair Café partnership decision lab.</p>
+                <span className="mt-3 block font-semibold text-teal-200 underline">Open the learning page →</span>
+            </a>
+
+            <a href="/learn/repair-cafe-simulator" className="mb-6 block rounded-2xl border-2 border-emerald-500/30 bg-emerald-950 p-6 text-white shadow-lg transition hover:border-amber-300">
+                <p className="text-xs font-bold uppercase tracking-widest text-amber-200">Featured · New live-event learning game</p>
+                <strong className="mt-2 block text-2xl">Run Your Own Repair Café</strong>
+                <p className="mt-2 text-sm text-emerald-100">Five stages · interactive venue plan · confirmed volunteer roster · safety gates · seven live incidents · reflection and media.</p>
+                <span className="mt-3 block font-semibold text-amber-200 underline">Open the event simulation →</span>
+            </a>
+
+            <a href="/learn/dead-laptop-detective" className="mb-6 block rounded-2xl border-2 border-cyan-500/40 bg-slate-950 p-6 text-white shadow-lg transition hover:border-cyan-300">
+                <p className="text-xs font-bold uppercase tracking-widest text-cyan-300">Featured · New interactive simulation</p>
+                <strong className="mt-2 block text-2xl">The Dead Laptop Detective</strong>
+                <p className="mt-2 text-sm text-slate-200">8 missions · virtual circuit board · simulated multimeter · 3 evidence-gated cases · videos, pictures and audio.</p>
+                <span className="mt-3 block font-semibold text-cyan-200 underline">Enter the repair laboratory →</span>
+            </a>
+
+            <a href="https://github.com/joshualparris/JoshHub/blob/main/docs/learning-lab/JOSHHUB-TEN-UNIQUE-COURSES-ROADMAP.html" target="_blank" rel="noreferrer" className="mb-5 block text-sm underline">Explore the ten unique course experiences planned for JoshHub ↗</a>
+
+            <a href="/learn/dubbo-business-field-guide" className="mb-6 block rounded-xl border p-5">
+                <strong className="text-lg">Inside Dubbo’s technology and repair businesses</strong>
+                <p className="mt-2">15 locations · 67 sources · 6 lessons. Explore workplace evidence, public role maps and opportunities for your projects.</p>
+                <span className="mt-2 block underline">Open the learning module →</span>
+            </a>
+
+            <a href="/learn/dubbo-ewaste-outreach" className="mb-6 block rounded-xl border p-5">
+                <strong className="text-lg">New e-waste sourcing opportunities in Dubbo</strong>
+                <p className="mt-2">27 uncontacted prospects · verified contact routes · 3 short lessons. Learn to assess device ownership, risk and useful outreach.</p>
+                <span className="mt-2 block underline">Open the follow-on learning module →</span>
+            </a>
+
             <div className="mb-4">
                 <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search topics or tags" className="w-full border rounded p-2" />
             </div>
